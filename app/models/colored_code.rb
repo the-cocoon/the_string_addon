@@ -28,7 +28,7 @@ class ColoredCode
     end
 
     def with_pygments_css theme = :monokai
-      pygments.css(style: theme)
+      pygments.css('.highlight', style: theme)
     end
 
     def with_pygments txt

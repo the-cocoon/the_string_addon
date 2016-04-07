@@ -33,5 +33,6 @@ class ActiveSupport::TimeWithZone
 end
 
 require "the_string_addon/seo_helpers"
+require "the_string_addon/email_checking"
 require "the_string_addon/wysiwyg_helpers"
 require "the_string_addon/plain_text_helpers"

@@ -47,7 +47,7 @@ class Sanitize
 
       :attributes => merge(BASIC[:attributes],
         :all       => %w[class dir hidden id lang style tabindex title translate],
-        'a'        => %w[href hreflang name rel],
+        'a'        => %w[href hreflang name rel target],
         'col'      => %w[span width],
         'colgroup' => %w[span width],
         'data'     => %w[value],
